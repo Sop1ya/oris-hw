@@ -3,6 +3,7 @@ namespace MyHttpServer;
 public class Settings
 {
     public Server Server{get; set; } = new();
+    public Dictionary<string, string> Pages { get; set; } = new();
 }
 
 public class Server
